@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anwesenheitssensor - Prof. Mag. Tanja Tomitsch BSc</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <h1>3D-gedruckter Anwesenheitssensor mit leitfähigem Filament</h1>
+    <p>Ein innovatives Sensorsystem für sichere Anwesenheitskontrollen</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Portfolio</a></li>
+        <li><a href="../projects.html">Projekte</a></li>
+    </ul>
+</nav>
+
+<div class="container project-container">
+    <section class="project-section">
+        <h2>Projektübersicht</h2>
+        <p>Dieses Projekt entwickelte ein innovatives Sensorsystem, das 3D-Druck, Elektronik und IoT-Technologien
+            kombiniert, um eine kostengünstige und flexible Lösung für Anwesenheitskontrollen in sicherheitskritischen
+            Umgebungen zu bieten.</p>
+    </section>
+
+    <section class="project-section">
+        <h2>Problemstellung &amp; Motivation</h2>
+        <p>Das Ziel war es, eine kostengünstige Alternative zu schaffen, die flexibel anpassbar und praxisnah ist.</p>
+        <ul class="list">
+            <li>Erhöhte Sicherheitsrisiken durch unbeaufsichtigte Maschinen</li>
+            <li>Fehlfunktionen und Materialstaus bei herkömmlichen Sensoren</li>
+            <li>Hohe Kosten und mangelnde Individualisierbarkeit bestehender Systeme</li>
+        </ul>
+    </section>
+
+    <section class="project-section">
+        <h2>Technologische Umsetzung &amp; Entwicklung</h2>
+        <ol class="list">
+            <li><strong>Materialanalyse &amp; Testung der Leitfähigkeit:</strong>
+                <ul class="list">
+                    <li>Test von leitfähigem PLA und TPU hinsichtlich elektrischer Eigenschaften und mechanischer
+                        Belastbarkeit
+                    </li>
+                    <li>Messungen zur Widerstandsbestimmung und Optimierung der Druckparameter</li>
+                </ul>
+            </li>
+            <li><strong>Konstruktion &amp; 3D-Druck:</strong>
+                <ul class="list">
+                    <li>Entwicklung zweier Sensormodelle: „Buzzer“ und „Tower“</li>
+                    <li>Design und Druck der Gehäuse mittels Fusion 360 und Prusa MK3</li>
+                </ul>
+            </li>
+            <li><strong>Elektronik &amp; Steuerung:</strong>
+                <ul class="list">
+                    <li>Arduino Uno zur Datenverarbeitung</li>
+                    <li>Integration von 433 MHz-Funksender, LEDs und Buzzer</li>
+                    <li>Implementierung einer Finite State Machine (FSM) zur Zustandssteuerung</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section class="project-section">
+        <h2>Testergebnisse &amp; Evaluation</h2>
+        <ul class="list">
+            <li>Sensormodell „Buzzer“: ca. 95% Erkennungsrate</li>
+            <li>Sensormodell „Tower“: ca. 85% Präzision</li>
+            <li>Validierung in realen Umgebungen (z. B. Lasercutter-Test)</li>
+        </ul>
+        <!-- Integrated Bildbeschreibungen via figure/figcaption for easy reference -->
+        <div class="image-gallery">
+            <figure>
+                <img src="../img/anwesenheitssensor1.png"
+                     alt="Diagramm zur Finite State Machine des Anwesenheitssensors">
+                <figcaption>Diagramm zur Finite State Machine: Zustände CoolDown, Tolerance, Piezo, 433 MHz, Power
+                    off.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="../img/anwesenheitssensor2.png" alt="Sensormodell ‚Tower‘ – geschlossen">
+                <figcaption>Sensormodell „Tower“ – geschlossen: Geschlossenes Sensorgehäuse mit Verbindungskabel und
+                    Gehäuse aus nicht-leitfähigem PLA.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="../img/anwesenheitssensor3.png" alt="Sensormodell ‚Buzzer‘ – geöffnet">
+                <figcaption>Sensormodell „Buzzer“ – geöffnet: Offene Ansicht des internen Aufbaus mit fest verbautem
+                    Sensorteil, flexibler leitfähiger Matte und Elektronik.
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Prof. Mag. Tanja Tomitsch BSc. Alle Rechte vorbehalten.</p>
+</footer>
+</body>
+</html>

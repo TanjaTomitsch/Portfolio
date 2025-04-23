@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katzenfutterautomat - Prof. Mag. Tanja Tomitsch BSc</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <h1>Katzenfutterautomat mit RFID-Zugangskontrolle und Smart-Funktionen</h1>
+    <p>Ein innovatives, automatisiertes Fütterungssystem</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Portfolio</a></li>
+        <li><a href="../projects.html">Projekte</a></li>
+    </ul>
+</nav>
+
+<div class="container project-container">
+    <section class="project-section">
+        <h2>Projektübersicht</h2>
+        <p>
+            Der entwickelte Katzenfutterautomat ist ein automatisiertes Fütterungssystem mit RFID-basierter
+            Zugangskontrolle. Das Projekt entstand im Rahmen des Smart-Engineering-Studiums an der Fachhochschule
+            St.
+            Pölten und kombiniert Mechanik, Elektronik und Programmierung zu einem intelligenten, modularen System.
+        </p>
+    </section>
+
+    <section class="project-section">
+        <h2>Problemstellung</h2>
+        <ul class="list">
+            <li>Katzenhalter müssen oft zu unpassenden Zeiten füttern.</li>
+            <li>Mehrtierhaushalte können Probleme bei der Futterzuteilung haben.</li>
+        </ul>
+    </section>
+
+    <section class="project-section">
+        <h2>Ziel</h2>
+        <ul class="list">
+            <li>Katzen mittels RFID-Chip identifiziert</li>
+            <li>Unautorisierte Futterentnahme verhindert</li>
+            <li>Eine maximale Anzahl an Fütterungen pro Tag erlaubt</li>
+            <li>Fütterungspausen implementiert</li>
+            <li>Den Fütterungsstatus über LED-Signale kommuniziert</li>
+        </ul>
+    </section>
+
+
+    <section class="project-section">
+        <h2>Technologien &amp; Methoden</h2>
+        <ol class="list">
+            <li><strong>Mechanik &amp; 3D-Druck:</strong>
+                <ul class="list">
+                    <li>Konstruktion basierend auf einem Open-Source-Modell, erweitert durch eigene Anpassungen</li>
+                    <li>3D-Druck mit PETG für futterberührende Teile und PLA für strukturelle Komponenten</li>
+                </ul>
+            </li>
+            <li><strong>Elektronik:</strong>
+                <ul class="list">
+                    <li>RFID-Modul zur Erkennung der Katze</li>
+                    <li>Stepper-Motor zur kontrollierten Futterausgabe</li>
+                    <li>LCD und LED-Kette zur Anzeige des Fütterungsstatus</li>
+                    <li>Temperatursensor zur Überwachung der Elektroniktemperatur</li>
+                </ul>
+            </li>
+            <li><strong>Programmierung &amp; Steuerung:</strong>
+                <ul class="list">
+                    <li>Implementierung für Arduino</li>
+                    <li>Final-State-Machine zur Steuerung des Fütterungsprozesses</li>
+                    <li>Manuelle und automatische Fütterung über RFID oder Knopfdruck</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="../img/futterautomat3.png" alt="Diagramm zur Steuerungslogik des Fütterungssystems">
+    </section>
+
+    <section class="project-section">
+        <h2>Herausforderungen &amp; Lösungen</h2>
+        <ul class="list">
+            <li>RFID-Reichweite: Alternativer Reader mit höherer Reichweite geplant</li>
+            <li>Stromversorgung: Externe Spannungsstabilisierung für den Stepper-Motor implementiert</li>
+            <li>LED-Ketten-Integration: Gehäusedesign modifiziert für bessere Kabelintegration</li>
+        </ul>
+    </section>
+
+    <section class="project-section">
+        <h2>Ergebnis &amp; Weiterentwicklung</h2>
+        <p>Der Futterautomat war funktional und alle Komponenten wurden erfolgreich integriert. Zukünftige Entwicklungen
+            umfassen eine optimierte RFID-Erkennung und eine IoT-Anbindung zur Remote-Überwachung per
+            Smartphone-App.</p>
+    </section>
+</div>
+
+<!-- Image Gallery -->
+<div class="image-gallery">
+    <figure>
+        <img src="../img/futterautomat1.png" alt="3D-gedruckter Katzenfutterautomat">
+        <figcaption>3D-gedruckter Katzenfutterautomat</figcaption>
+    </figure>
+    <figure>
+        <img src="../img/futterautomat2.png" alt="Beleuchteter Katzenfutterautomat in Aktion">
+        <figcaption>Beleuchteter Katzenfutterautomat in Aktion</figcaption>
+    </figure>
+</div>
+
+<footer>
+    <p>&copy; 2025 Prof. Mag. Tanja Tomitsch BSc. Alle Rechte vorbehalten.</p>
+</footer>
+</body>
+</html>
